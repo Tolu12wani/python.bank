@@ -1,0 +1,9 @@
+def password_verification ()
+while true :
+    password = input ("enter password")
+    verify_password = input ("verify password")
+    if password == verify password
+    print ("password verified succefully!")
+    break
+    else
+     print ("password verification failed. please try again.")
